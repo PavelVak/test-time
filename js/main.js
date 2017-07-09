@@ -101,7 +101,7 @@ var Time = (function () {
     Time.prototype.updateHands = function (self) {
         self.selectedTime += 1000;
         self.timeText = moment(self.selectedTime).locale(self.timeLocale).format('LTS');
-        $('#' + self.timeLocale + ' + .time-text').text(self.timeText);
+        $('#' + self.timeLocale + '+ .time-text').text(self.timeText);
         self.svg.selectAll("line.hand")
             .data(this.getTimeOfDay(self.selectedTime))
             .transition().ease("bounce")

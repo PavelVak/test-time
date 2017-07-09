@@ -97,6 +97,19 @@ textarea {
 li.multiple{
     width: 100% !important;
 }
+.clock{
+    text-align: center;
+    margin: 15px;
+}
+#clock-holder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#datetimepicker, #select-holder{
+    margin: 25px;
+}
 
 
 
