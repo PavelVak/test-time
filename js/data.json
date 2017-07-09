@@ -1,0 +1,24 @@
+{
+  "blocks": [
+    {
+      "blockName": "Analitics",
+      "links": [
+        {
+          "href": "/",
+          "title": "Analitics API 1",
+          "description": "Description words"
+        },
+        {
+          "href": "/",
+          "title": "Analitics API 2",
+          "description": "Description words"
+        },
+        {
+          "href": "/",
+          "title": "Analitics API 3",
+          "description": "Description words"
+        },
+      ]
+    }
+  ]
+}
